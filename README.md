@@ -11,7 +11,7 @@
 [![License](https://poser.pugx.org/dercoder/omnipay-paymanat/license.png)](https://packagist.org/packages/dercoder/omnipay-paymanat)
 
 [Omnipay](https://github.com/omnipay/omnipay) is a framework agnostic, multi-gateway payment
-processing library for PHP 5.3+. This package implements [Paymanat](https://Paymanat.com) support for Omnipay.
+processing library for PHP 5.3+. This package implements [Paymanat](https://paymanat.az) support for Omnipay.
 
 ## Installation
 

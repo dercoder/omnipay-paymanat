@@ -2,8 +2,6 @@
 
 namespace Omnipay\Paymanat\Message;
 
-use Omnipay\Common\Exception\InvalidRequestException;
-use Omnipay\Common\Exception\InvalidResponseException;
 use Omnipay\Tests\TestCase;
 
 class PurchaseRequestTest extends TestCase
@@ -33,7 +31,7 @@ class PurchaseRequestTest extends TestCase
         $this->assertSame('Test Transaction', $data['info']);
 
         $this->request->setCurrency('EUR');
-        $this->setExpectedException(InvalidRequestException::class);
+        $this->setExpectedException('Omnipay\Common\Exception\InvalidRequestException');
         $this->request->getData();
     }
 
