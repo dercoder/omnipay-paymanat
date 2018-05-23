@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Wed, 23 May 2018 14:09:15 GMT
+Content-Type: text/html
+Connection: keep-alive
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Accept-Encoding,User-Agent
+
+a:2:{s:7:"success";i:0;s:6:"errors";s:17:"Partner not found";}

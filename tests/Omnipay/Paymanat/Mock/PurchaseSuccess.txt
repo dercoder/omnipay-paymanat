@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Wed, 23 May 2018 14:09:15 GMT
+Content-Type: text/html
+Connection: keep-alive
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Accept-Encoding,User-Agent
+
+a:7:{s:3:"pid";s:5:"12345";s:4:"info";s:16:"Test Transaction";s:4:"code";s:10:"1479473562";s:7:"success";i:1;s:6:"errors";N;s:6:"amount";s:1:"5";s:6:"series";s:8:"90000003";}
