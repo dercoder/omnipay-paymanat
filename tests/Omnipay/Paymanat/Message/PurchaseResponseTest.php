@@ -27,7 +27,7 @@ class PurchaseResponseTest extends TestCase
         $this->assertFalse($response->isCancelled());
         $this->assertFalse($response->isPending());
         $this->assertFalse($response->isRedirect());
-        $this->assertSame('1', $response->getCode());
+        $this->assertNull($response->getCode());
         $this->assertNull($response->getMessage());
         $this->assertSame('Test Transaction', $response->getDescription());
         $this->assertNull($response->getTransactionId());
@@ -47,8 +47,8 @@ class PurchaseResponseTest extends TestCase
         $this->assertFalse($response->isCancelled());
         $this->assertFalse($response->isPending());
         $this->assertFalse($response->isRedirect());
-        $this->assertSame('0', $response->getCode());
-        $this->assertSame('Partner not found', $response->getMessage());
+        $this->assertSame('1', $response->getCode());
+        $this->assertSame('Code is incorrect', $response->getMessage());
         $this->assertNull($response->getTransactionId());
         $this->assertNull($response->getTransactionReference());
         $this->assertNull($response->getAmount());

@@ -7,4 +7,4 @@ Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
 Pragma: no-cache
 Vary: Accept-Encoding,User-Agent
 
-a:2:{s:7:"success";i:0;s:6:"errors";s:17:"Partner not found";}
+a:3:{s:7:"success";i:0;s:6:"errors";s:17:"Code is incorrect";s:10:"error_code";i:1;}

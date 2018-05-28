@@ -12,12 +12,12 @@ abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
     /**
      * @var string
      */
-    protected $endpoint = 'http://paymanat.az/api';
+    protected $endpoint = 'https://paymanat.az/api';
 
     /**
      * Get Paymanat Partner ID.
      *
-     * @return string token
+     * @return int
      */
     public function getPartnerId()
     {
@@ -27,7 +27,7 @@ abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
     /**
      * Set Paymanat Partner ID.
      *
-     * @param string $value token
+     * @param int $value
      *
      * @return $this
      */

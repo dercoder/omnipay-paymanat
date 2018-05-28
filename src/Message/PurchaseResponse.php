@@ -16,7 +16,7 @@ class PurchaseResponse extends AbstractResponse
      */
     public function isSuccessful()
     {
-        return $this->getCode() === '1';
+        return isset($this->data['success']) ? (string)$this->data['success'] === '1' : false;
     }
 
     /**
@@ -24,7 +24,7 @@ class PurchaseResponse extends AbstractResponse
      */
     public function getCode()
     {
-        return isset($this->data['success']) ? (string)$this->data['success'] : null;
+        return isset($this->data['error_code']) ? (string)$this->data['error_code'] : null;
     }
 
     /**
